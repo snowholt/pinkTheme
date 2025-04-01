@@ -4,7 +4,7 @@
   "description": "A soft pink theme for a feminine style in the code editor.",
   "version": "0.0.1",
   "publisher": "narimanjafari",
-  "icon": "images/icon.jpeg",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.50.0"
   },
