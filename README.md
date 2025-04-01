@@ -3,6 +3,15 @@
 ## Overview
 The Soft Pink Theme is a beautifully crafted theme designed for a feminine aesthetic, providing a soft and calming color palette for your coding environment. This theme enhances your coding experience with its gentle hues and elegant styling.
 
+## About the Creator
+Hi, I'm Nariman Jafari ([@snowholt](https://github.com/snowholt)), an AI Engineer and Full-Stack Developer based in Montreal. This theme was created as part of my personal journey:
+
+> "Finding my peace as I embrace my inner girl, one step at a time. 🌱 Understanding comes with the journey. ✨"
+
+This project is designed with the intention of creating tools and resources that resonate with women, transfeminine individuals, and anyone on a journey to embrace their inner femininity. I hope this theme brings a touch of comfort and joy to your coding experience.
+
+You can find this project at: [https://github.com/snowholt/pinkTheme](https://github.com/snowholt/pinkTheme)
+
 ## Features
 - Soft pink color scheme that is easy on the eyes
 - Customizable settings to adjust the theme to your preference
