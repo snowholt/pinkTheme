@@ -15,11 +15,7 @@ To install the Soft Pink Theme, follow these steps:
 2. Search for "Soft Pink Theme".
 3. Click on the Install button.
 
-Alternatively, you can install the theme from the command line:
 
-```bash
-code --install-extension your-publisher.soft-pink-theme
-```
 
 ## Usage
 Once installed, you can activate the Soft Pink Theme by following these steps:
