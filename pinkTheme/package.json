@@ -1,0 +1,45 @@
+{
+  "name": "soft-pink-theme",
+  "displayName": "Soft Pink Theme",
+  "description": "A soft pink theme for a feminine style in the code editor.",
+  "version": "0.0.1",
+  "publisher": "narimanjafari",
+  "icon": "images/icon.jpeg",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Soft Pink Theme",
+        "uiTheme": "vs",
+        "path": "./themes/softPinkColorTheme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "npx @vscode/vsce package"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "@types/vscode": "^1.50.0",
+    "@vscode/vsce": "^2.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowholt/soft-pink-theme"
+  },
+  "keywords": [
+    "theme",
+    "pink",
+    "feminine",
+    "soft",
+    "light"
+  ]
+}
