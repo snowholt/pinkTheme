@@ -2,7 +2,7 @@
   "name": "soft-pink-theme",
   "displayName": "Soft Pink Theme",
   "description": "A soft pink theme for a feminine style in the code editor.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "narimanjafari",
   "icon": "images/icon.png",
   "engines": {

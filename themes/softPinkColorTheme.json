@@ -4,9 +4,9 @@
   "type": "light",
   "colors": {
     "editor.background": "#FFFFFF",
-    "editor.foreground": "#4A4A4A",
+    "editor.foreground": "#000000",
     "terminal.background": "#FFFFFF",
-    "terminal.foreground": "#4A4A4A",
+    "terminal.foreground": "#000000",
     "terminal.ansiBlack": "#333333",
     "terminal.ansiBlue": "#0066CC",
     "terminal.ansiCyan": "#00AAAA",
@@ -73,7 +73,23 @@
     "gitDecoration.conflictingResourceForeground": "#FF5252",
     "editorInlayHint.background": "#FFF0F5",
     "editorInlayHint.foreground": "#AD1457",
-    "icon.foreground": "#880E4F"
+    "icon.foreground": "#880E4F",
+    
+    // List colors
+    "list.errorForeground": "#C2185B",
+    "list.warningForeground": "#BB6BD9",
+    "editorBracketMatch.background": "#F8BBD080",
+    "editorBracketMatch.border": "#F06292",
+    
+    // Markdown styling - using standard properties
+    "textBlockQuote.background": "#FFEBEE",
+    "textBlockQuote.border": "#F8BBD0",
+    "textCodeBlock.background": "#E3F2FD",
+    "textLink.activeForeground": "#C2185B",
+    
+    // Only include supported chat properties
+    "chat.slashCommandBackground": "#FCE4EC",
+    "chat.slashCommandForeground": "#000000"
   },
   "tokenColors": [
     {
@@ -118,6 +134,31 @@
       "settings": {
         "foreground": "#880E4F"
       }
+    },
+    {
+      "name": "Markdown - Code",
+      "scope": [
+        "markup.fenced_code.block.markdown",
+        "markup.inline.raw.markdown"
+      ],
+      "settings": {
+        "foreground": "#0033CC",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown - Lists",
+      "scope": [
+        "markup.list.numbered.markdown",
+        "markup.list.unnumbered.markdown",
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": {
+        "foreground": "#6A1B9A",
+        "fontStyle": "bold"
+      }
     }
-  ]
+  ],
+  "editor.fontFamily": "'Fira Code', 'Source Code Pro', 'Comic Sans MS', monospace",
+  "editor.fontSize": 14
 }
