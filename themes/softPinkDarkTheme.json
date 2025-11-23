@@ -1,0 +1,164 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Soft Pink Dark Theme",
+    "type": "dark",
+    "semanticHighlighting": true,
+    "colors": {
+        "editor.background": "#263238",
+        "editor.foreground": "#ECEFF1",
+        "activityBar.background": "#37474F",
+        "activityBar.foreground": "#F48FB1",
+        "sideBar.background": "#263238",
+        "statusBar.background": "#880E4F",
+        "statusBar.foreground": "#FFFFFF",
+        "editor.lineHighlightBackground": "#37474F",
+        "editorCursor.foreground": "#F06292",
+        "editorWhitespace.foreground": "#546E7A",
+        "editorIndentGuide.background1": "#546E7A",
+        "editorIndentGuide.activeBackground1": "#F06292",
+        "editor.selectionBackground": "#F0629240",
+        "list.activeSelectionBackground": "#880E4F",
+        "list.activeSelectionForeground": "#FFFFFF",
+        "list.hoverBackground": "#37474F",
+        "titleBar.activeBackground": "#263238",
+        "titleBar.activeForeground": "#F48FB1",
+        "tab.activeBackground": "#37474F",
+        "tab.inactiveBackground": "#263238",
+        "tab.activeBorderTop": "#F06292"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#546E7A",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#F48FB1",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": [
+                "variable",
+                "string constant.other.placeholder"
+            ],
+            "settings": {
+                "foreground": "#F8BBD0"
+            }
+        },
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call"
+            ],
+            "settings": {
+                "foreground": "#F06292"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#C5E1A5"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#FFCC80"
+            }
+        },
+        {
+            "name": "Classes",
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "support.class"
+            ],
+            "settings": {
+                "foreground": "#CE93D8",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown Headings",
+            "scope": [
+                "markup.heading",
+                "entity.name.section"
+            ],
+            "settings": {
+                "foreground": "#F48FB1",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown Bold",
+            "scope": [
+                "markup.bold"
+            ],
+            "settings": {
+                "foreground": "#F8BBD0",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Markdown Italic",
+            "scope": [
+                "markup.italic"
+            ],
+            "settings": {
+                "foreground": "#F8BBD0",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Markdown Code",
+            "scope": [
+                "markup.inline.raw",
+                "markup.fenced_code.block"
+            ],
+            "settings": {
+                "foreground": "#ECEFF1"
+            }
+        },
+        {
+            "name": "Markdown Quote",
+            "scope": [
+                "markup.quote"
+            ],
+            "settings": {
+                "foreground": "#90A4AE",
+                "fontStyle": "italic"
+            }
+        }
+    ],
+    "semanticTokenColors": {
+        "variable.readonly": "#F06292",
+        "variable.defaultLibrary": "#CE93D8",
+        "function.defaultLibrary": "#F48FB1",
+        "class": "#CE93D8",
+        "interface": "#E1BEE7",
+        "type": "#E1BEE7",
+        "parameter": "#F8BBD0"
+    }
+}

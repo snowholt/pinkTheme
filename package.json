@@ -2,7 +2,8 @@
   "name": "soft-pink-theme",
   "displayName": "Soft Pink Theme",
   "description": "A soft pink theme for a feminine style in the code editor.",
-  "version": "0.0.2",
+  "version": "0.0.6",
+  "main": "./out/extension.js",
   "publisher": "narimanjafari",
   "icon": "images/icon.png",
   "engines": {
@@ -11,12 +12,36 @@
   "categories": [
     "Themes"
   ],
+  "activationEvents": [
+    "onCommand:softpink.increaseFontSize",
+    "onCommand:softpink.decreaseFontSize",
+    "onCommand:softpink.resetFontSize"
+  ],
   "contributes": {
     "themes": [
       {
         "label": "Soft Pink Theme",
         "uiTheme": "vs",
         "path": "./themes/softPinkColorTheme.json"
+      },
+      {
+        "label": "Soft Pink Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/softPinkDarkTheme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "softpink.increaseFontSize",
+        "title": "Soft Pink: Increase Font Size"
+      },
+      {
+        "command": "softpink.decreaseFontSize",
+        "title": "Soft Pink: Decrease Font Size"
+      },
+      {
+        "command": "softpink.resetFontSize",
+        "title": "Soft Pink: Reset Font Size"
       }
     ]
   },
